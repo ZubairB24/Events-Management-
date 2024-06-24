@@ -1,0 +1,495 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, 
+    -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+/* Here i put some style in header nav bg img etc} */
+.bg{
+
+        background: url(evets.pdf.jpg) ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 700px;
+}
+ .facebook {
+    color:white;
+ }
+ .insta{
+    color: white;
+ }
+ 
+.header1{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+header{
+    background-color: rgb(33, 29, 39);
+    padding: 18px;
+    text-decoration: none;
+    color: white;
+}
+nav{
+    background-color: white;
+  
+}
+/* here i put some style in li */
+a{
+    text-decoration: none;
+    color: black;
+    margin: 30px;
+}
+.navli{
+    display: inline;
+    
+}
+.navul{
+    text-align: center;
+    padding: 30px;
+}
+
+.p3{
+    margin: 0 16px;
+    text-align: right;
+}
+.p4{
+   
+    margin: 0 16px;
+    text-align: right;
+}
+/* .button1{
+    margin-left: 1400px;
+    color: white;
+    font-size: 13px;
+    background-color: rgb(168, 17, 17);
+    border-radius: 4px;
+    border: none;
+    padding: 11px 24px;
+    
+} */
+.button2{
+    color: white;
+    background-color: rgb(168, 17, 17);
+    font-size: 13px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 10px;
+    padding: 11 24px;
+}
+.button2:hover{
+    color: rgb(90, 115, 137);
+    
+}
+
+
+/* here i edit paragraph on pagge  */
+
+.para{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    border-radius:0 0 4rem 4rem;
+    background-color: aliceblue;
+}
+.para2{
+    padding: 1rem 5rem;
+}
+
+
+
+
+/* here first part of div */
+
+.pg{
+    padding: 10px 90px;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+/* setting in 2nd section */
+.secdiv{
+    text-align: center;
+    background-color: aliceblue;
+    padding-top: 8rem;
+    padding-bottom: 2rem;
+}
+.section2{
+    padding: 10px 90px;
+}
+
+    .secbgdiv{
+        background-color: aliceblue;
+        display: flex;
+        justify-content: space-between;
+        border: 4px solid rgb(156, 152, 152);
+        border-radius: 20px;
+    }
+
+/*here i add 3rd section code*/
+
+
+.section3{
+    padding: 10px 90px;
+}  
+
+.endh1{
+    text-align: center;
+    margin-top: 60px;
+    font-weight: 650;
+}
+.endh2{
+    text-align: center;
+    margin-top: 10px;
+
+}
+img{
+    height: 250px;
+    width: 410px;
+}
+.events2{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    font-family: system-ui,
+     -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h2{
+    text-align: center;
+}
+
+
+
+
+
+
+
+/* here i start 4rd section of code */
+
+
+h2{
+    padding: 1rem;
+}
+.SECTION4{
+    background-color: rgba(211, 211, 211,0.3);
+    display: flex;
+    padding: 10px 90px;
+    gap: 50px;
+}
+.h11{
+    background-color: rgba(211, 211, 211,0.3);
+    padding-top: 1rem;
+    font-weight:600;
+    font-size: 40px;
+    text-align: center;
+    font-family: system-ui, 
+    -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.h22{
+    background-color: rgba(211, 211, 211,0.3);
+    padding: 2rem;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: system-ui,
+     -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+ 
+
+
+/* here i add some style in section 5 */
+
+.section5{
+    display: flex;
+    gap: 50px;
+    padding: 40px 90px;
+}
+.imgg{
+   margin-top: 4rem;
+    height: 500px;
+    width: 500px;
+}
+.paragraphsection5{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+span{
+    color: red;
+    font-size: 30px;
+    padding: 10px;
+}
+.parth2{
+    font-size: 60px;
+    padding: 30px;
+    text-align: left;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* setting section 6 */
+h4{
+    color: red;
+    text-align: center;
+}
+.section6h{
+    color: red;
+    font-size: 40px;
+}
+.section6hh{
+    font-size: 40px;
+}
+
+.section6{
+    background-color: white;
+    display: flex;
+    gap: 4rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding:40px 200px;
+}
+.section6child1{
+    
+    width: 50rem;
+    background-color: aliceblue;
+}
+.section6child2{
+    background-color: aliceblue;
+    width: 50rem;
+}
+.section6divs1{
+    gap: 5rem;
+}
+
+
+
+
+/* section 7th setting */
+
+.section7th{
+    padding: 4rem 10rem;
+    background-color: aliceblue;
+}
+
+.section7thheading{
+    padding-bottom: 4rem;
+    text-align: center;
+    font-size: 3rem;
+    font-family: system-ui,
+     -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.flex7th{
+    display: flex;
+    gap: 90px;
+    font-family: system-ui,
+     -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.headinh2{
+    font-size: 35px;
+    text-align: left;
+    padding:0 0 2rem;
+}
+
+
+/* setting in section 8th */
+
+.first7th{
+    background-color: rgb(248, 247, 247);
+    display: flex;
+    padding: 4rem 10rem;
+    gap: 90px;
+    font-family: system-ui, 
+    -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.firstheading7th{
+    font-size: 35px;
+    padding: 2rem;
+}
+
+.p8th{
+    font-size: 22px;
+    font-family: system-ui,
+     -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+}
+
+
+/* i start 9th section */
+
+
+.section9th{
+    background-color: rgba(92, 112, 112, 0.1);
+
+}
+
+.hh2{
+    text-align: center;
+    color: red;
+    font-size: 20px;
+    padding: 2rem;
+}
+.hh1{
+    text-align: center;
+    color:blueviolet ;
+    padding: 2rem;
+}
+
+
+
+/* i start 10th section */
+
+.part110th{
+    padding-top: 10rem;
+
+}
+.section10th{
+    display: flex;
+    gap: 10rem;
+    padding: 0rem 10rem;
+}
+
+.h4sec10{
+    font-size: 20px;
+    text-align: left;
+    font-family: system-ui,
+     -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.h2sec10{
+    text-align: left;
+    padding: 10px;
+    font-size: 34px ;
+    font-family: system-ui, 
+    -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+ h6{ 
+    text-align: left;
+    padding-top: 2rem;
+    font-size:19px;
+    padding: 10px;
+    font-weight: lighter;
+    font-family: system-ui, 
+    -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+
+
+ /* here i edit Form */
+
+
+ input,textarea{
+    display: block;
+    margin: 1rem;
+    border: 1px solid rgba(211, 211, 211,0.8);
+    border-radius: 3px;
+    width: 550px;
+    padding:1rem;
+    font-weight: bold;
+    font-family: system-ui,
+     -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.free{
+      font-family: system-ui
+      , -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-size: 20px;  
+
+    }   
+
+.geta{
+font-family: system-ui,
+ -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 29px;
+}
+
+
+.Button3{
+background-color: rgb(191, 3, 3);
+color: white;
+font-family: system-ui,
+ -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 17px;
+padding: 10px 25px;
+
+text-align: center;
+margin-left: 1rem;
+margin-bottom: 1rem;
+border: none;
+border-radius: 5px;
+}
+
+/* here i start section 11th */
+
+
+.h2sec11{
+    font-size: 50px;
+    font-family: system-ui, 
+    -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 1rem;
+
+}
+.section11th{
+    font-family: system-ui, 
+    -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    gap: 24rem;
+    padding: 2.5rem 20rem;
+    font-size: 16px;
+    
+}
+
+.childdv1{
+   display: block;
+}
+.child11thdiv{
+    display: block;
+    text-align: left;
+}
+
+
+.child11divv{
+    display: block;
+    text-align: left;
+}
+
+
+
+/* now i start section 12th */
+
+
+.section12th{
+    background-color: rgb(20, 21, 70);
+    color: white;
+    display: flex;
+    padding: 5rem 8rem;
+    gap: 14rem;
+}
+.aaa{
+    color: white;
+
+}
+.section12div{
+    padding: 10px;
+}
+
+.textnone{
+    text-decoration: nonw;
+}
+
+.h22{
+    color: red;
+    text-decoration: none;
+}
+.footer{
+    font-size: 1.5rem;
+    font-weight: lighter;
+    font-family: system-ui,
+     -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
